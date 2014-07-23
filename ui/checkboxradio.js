@@ -132,11 +132,12 @@ $.widget( "ui.checkboxradio", {
 	},
 
 	_readLabel: function() {
-		var ancestor, labelSelector;
-
+		var ancestor, labelSelector, parent = this.element.parents( "label" );
 		// Check control.labels first
 		if ( this.element[ 0 ].labels !== undefined && this.element[ 0 ].labels.length > 0 ){
 			this.label = $( this.element[ 0 ].labels[ 0 ] );
+		} else if ( parent.length > 0 ) {
+			this.label = this.element.closest( "label" );
 		} else {
 
 			// We don't search against the document in case the element
