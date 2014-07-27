@@ -1,5 +1,4 @@
-# [jQuery UI](http://jqueryui.com/) - Interactions and Widgets for the web
-适用于Web的交互工具
+# [jQuery UI](http://jqueryui.com/) - Interactions and Widgets for the web    适用于Web的交互工具
 
 jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of jQuery. Whether you're building highly interactive web applications, or you just need to add a date picker to a form control, jQuery UI is the perfect choice.
 
